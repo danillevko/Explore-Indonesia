@@ -17,49 +17,59 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
-    <header>
-        <svg class="facebook-icon">
-            <use href="./img/symbols.svg#flower-icon">
-            </use>
-        </svg>
-        <a href="./index.html">Explore Indonesia</a>
-        <ul>
-            <li><a href="#">destinations</a></li>
-            <li><a href="#">experiences</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">gallery</a></li>
-        </ul>
-        <svg class="search-icon">
-            <use href="./img/symbols.svg#search-icon"></use>
-        </svg>
-    </header>
-    <main>
-        <section class="hero">
-            <h1>explore indonesia</h1>
-            <button type="button">Start travelling</button>
-            <ul>
-                <li>
-                    <h6>01</h6>
-                    <h6>Title here</h6>
-                    <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-                <li>
-                    <h6>02</h6>
-                    <h6>Title here</h6>
-                    <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-                <li>
-                    <h6>03</h6>
-                    <h6>Title here</h6>
-                    <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-            </ul>
-            <video src="#"></video>
-        </section>
+    <div class="bg-header-hero">
+        <div class="container">
+            <header class="header">
+                <div class="header-wrapper">
+                    <div class="logo-wrapper">
+                        <svg class="flower-icon">
+                            <use href="./img/symbols.svg#flower-icon">
+                            </use>
+                        </svg>
+                        <a href="./index.html" class="logo">Explore<div>Indonesia</div></a>
+                    </div>
+                    <ul class="header-list">
+                        <li class="header-item"><a href="#" class="header-link">destinations</a></li>
+                        <li class="header-item"><a href="#" class="header-link">experiences</a></li>
+                        <li class="header-item"><a href="#" class="header-link">about</a></li>
+                        <li class="header-item"><a href="#" class="header-link">gallery</a></li>
+                    </ul>
+                </div>
+                <svg class="search-icon">
+                    <use href="./img/symbols.svg#search-icon"></use>
+                </svg>
+            </header>
+            <main class="main">
+                <section class="hero">
+                    <h1 class="hero-title">explore<div>indonesia</div>
+                    </h1>
+                    <button type="button" class="hero-btn">Start travelling</button>
+                    <ul class="hero-list">
+                        <li class="hero-item">
+                            <h6 class="hero-item-num">01</h6>
+                            <h6 class="hero-item-title">Title here</h6>
+                            <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                        </li>
+                        <li class="hero-item">
+                            <h6 class="hero-item-num">02</h6>
+                            <h6 class="hero-item-title">Title here</h6>
+                            <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                        </li>
+                        <li class="hero-item">
+                            <h6 class="hero-item-num">03</h6>
+                            <h6 class="hero-item-title">Title here</h6>
+                            <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                        </li>
+                    </ul>
+                    <video src="#" class="hero-video"></video>
+                </section>
+        </div>
+    </div>
+    <div class="container">
         <section class="review">
             <ul>
                 <li>
@@ -170,38 +180,41 @@
                 </li>
             </ul>
         </section>
+    </div>
     </main>
-    <footer>
-        <svg class="facebook-icon">
-            <use href="./img/symbols.svg#flower-icon">
-            </use>
-        </svg>
-        <a href="./index.html">Explore Indonesia</a>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-        <ul>
-            <li>
-                <svg class="facebook-icon">
-                    <use href="./img/symbols.svg#facebook-icon"></use>
-                </svg>
-            </li>
-            <li>
-                <svg class="linkedin-icon">
-                    <use href="./img/symbols.svg#linkedin-icon"></use>
-                </svg>
-            </li>
-            <li>
-                <svg class="google-icon">
-                    <use href="./img/symbols.svg#google-icon"></use>
-                </svg>
-            </li>
-        </ul>
-        <h5>Copyright &#169 2025</h5>
-    </footer>
+    <div class="container">
+        <footer>
+            <svg class="facebook-icon">
+                <use href="./img/symbols.svg#flower-icon">
+                </use>
+            </svg>
+            <a href="./index.html">Explore Indonesia</a>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <svg class="facebook-icon">
+                        <use href="./img/symbols.svg#facebook-icon"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="linkedin-icon">
+                        <use href="./img/symbols.svg#linkedin-icon"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="google-icon">
+                        <use href="./img/symbols.svg#google-icon"></use>
+                    </svg>
+                </li>
+            </ul>
+            <h5>Copyright &#169 2025</h5>
+        </footer>
+    </div>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

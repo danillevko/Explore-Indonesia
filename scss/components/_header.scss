@@ -1,0 +1,49 @@
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+.header-wrapper {
+  display: flex;
+  gap: 64px;
+}
+.flower-icon {
+  width: 40px;
+  height: 49px;
+  background-color: black;
+}
+.logo-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.logo {
+  width: 128px;
+  height: 56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  @extend %secondaryFont;
+  display: block;
+  color: black;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.32px;
+  line-height: 81%;
+}
+.header-list {
+  display: flex;
+  width: 572px;
+  justify-content: space-between;
+  list-style: none;
+  text-transform: uppercase;
+}
+.header-item {
+}
+.header-link {
+  text-decoration: none;
+}
+.search-icon {
+  background-color: rgb(0, 0, 0);
+  width: 24px;
+  height: 24px;
+}

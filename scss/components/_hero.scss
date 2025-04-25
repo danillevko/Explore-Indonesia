@@ -1,0 +1,38 @@
+.hero {
+}
+.hero-title {
+    width: 627px;
+    height: 260px;
+    @extend %secondaryFont;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 130px;
+    text-transform: uppercase;
+    margin-left: 204px;
+    margin-bottom: 21px;
+}
+.hero-btn {
+    @extend %mainFont;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #DD2242;
+    color: white;
+    padding: 20px;
+    width: 271.1411437988281px;
+    height: 82px;
+    border: none;
+    border-radius: 20px;
+    line-height: 150%;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-item-num {
+}
+.hero-item-title {
+}
+.hero-item-p {
+}
+.hero-video {
+}

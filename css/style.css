@@ -1,1 +1,92 @@
-/*# sourceMappingURL=style.css.map */
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+
+.header-wrapper {
+  display: flex;
+  gap: 64px;
+}
+
+.flower-icon {
+  width: 40px;
+  height: 49px;
+  background-color: black;
+}
+
+.logo-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  width: 128px;
+  height: 56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.32px;
+  line-height: 81%;
+}
+
+.header-list {
+  display: flex;
+  width: 572px;
+  justify-content: space-between;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.search-icon {
+  background-color: rgb(0, 0, 0);
+  width: 24px;
+  height: 24px;
+}
+
+.hero-title {
+  width: 627px;
+  height: 260px;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 130px;
+  text-transform: uppercase;
+  margin-left: 204px;
+  margin-bottom: 21px;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #DD2242;
+  color: white;
+  padding: 20px;
+  width: 271.1411437988px;
+  height: 82px;
+  border: none;
+  border-radius: 20px;
+  line-height: 150%;
+}
+
+.hero-btn {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+.logo, .hero-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
