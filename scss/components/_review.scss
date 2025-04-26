@@ -1,0 +1,43 @@
+.review-section {
+}
+.review-wrapper-first {
+  background-image: linear-gradient(
+      to top,
+      #010a20 0%,
+      rgba(1, 10, 32, 0.7) 100%
+    ),
+    url(../../img/road.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.review-wrapper-second {
+  background-image: linear-gradient(
+      to bottom,
+      #010a20 0%,
+      rgba(1, 10, 32, 0.7) 100%
+    ),
+    url(../../img/beach.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.review-list {
+}
+.review-list-item {
+  display: flex;
+  gap: 130px;
+  text-align: center;
+}
+.review-image {
+    width: 630px;
+    height: 460px;
+    border-radius: 10px;
+}
+.review-title {
+
+}
+.review-paragraph {
+}
+.review-btn {
+}

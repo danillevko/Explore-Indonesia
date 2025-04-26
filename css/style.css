@@ -13,6 +13,7 @@
 .flower-icon {
   width: 40px;
   height: 49px;
+  background-color: rgb(255, 255, 255);
 }
 
 .logo-wrapper {
@@ -132,6 +133,32 @@
   color: #939393;
 }
 
+.review-wrapper-first {
+  background-image: linear-gradient(to top, #010a20 0%, rgba(1, 10, 32, 0.7) 100%), url(../../img/road.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.review-wrapper-second {
+  background-image: linear-gradient(to bottom, #010a20 0%, rgba(1, 10, 32, 0.7) 100%), url(../../img/beach.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.review-list-item {
+  display: flex;
+  gap: 130px;
+  text-align: center;
+}
+
+.review-image {
+  width: 630px;
+  height: 460px;
+  border-radius: 10px;
+}
+
 .hero-btn, .hero-item-title, .hero-item-p {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
@@ -152,4 +179,16 @@
 .container {
   width: 1280px;
   margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
