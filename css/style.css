@@ -133,11 +133,74 @@
   color: #939393;
 }
 
+.numbers {
+  background-color: #020C21;
+  opacity: 90%;
+  text-align: center;
+  align-items: center;
+  padding-top: 201px;
+  padding-bottom: 224px;
+}
+
+.nums-title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  width: 615px;
+  height: 52px;
+  margin: 0 auto;
+}
+
+.nums-paragraph {
+  width: 484px;
+  height: 102px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #E0E0E0;
+}
+
+.nums-list {
+  margin-top: 39px;
+  display: flex;
+  gap: 127px;
+}
+
+.nums-item-title {
+  width: 137px;
+  height: 49px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.4px;
+  color: #DD2242;
+  margin: 0 auto;
+}
+
+.nums-item-paragraph {
+  width: 340px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #E0E0E0;
+}
+
+.review-section {
+  padding: 0;
+}
+
 .review-wrapper-first {
   background-image: linear-gradient(to top, #010a20 0%, rgba(1, 10, 32, 0.7) 100%), url(../../img/road.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 205px 0px 205px 0px;
 }
 
 .review-wrapper-second {
@@ -145,6 +208,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 205px 0px 205px 0px;
+}
+
+.review-list {
+  padding: 0;
 }
 
 .review-list-item {
@@ -159,7 +227,66 @@
   border-radius: 10px;
 }
 
-.hero-btn, .hero-item-title, .hero-item-p {
+.review-title {
+  color: white;
+  width: 479px;
+  height: 119px;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: left;
+  line-height: 50px;
+}
+
+.review-paragraph {
+  width: 407px;
+  height: 83px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e0e0e0;
+  line-height: 28px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+
+.review-btn {
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  border-radius: 32px;
+  width: 179px;
+  height: 59px;
+  padding: 16px 24px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.secrets {
+  padding-top: 127px;
+  padding-bottom: 933px;
+}
+
+.secrets-title {
+  text-align: center;
+  margin-bottom: 44px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 150%;
+  vertical-align: middle;
+  color: #010A20;
+}
+
+.secrets-list {
+  display: flex;
+  gap: 31px;
+}
+
+.secrets-img {
+  width: 405px;
+  height: 257px;
+  border-radius: 10px;
+}
+
+.hero-btn, .hero-item-title, .hero-item-p, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
@@ -176,9 +303,17 @@
   background-position: center;
 }
 
+.bg-secrets-nums {
+  background-image: url(../img/bg-secret.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;
+  padding: 0;
 }
 
 li {

@@ -17,22 +17,27 @@
   background-position: center;
 }
 
+.bg-secrets-nums {
+  background-image: url(../img/bg-secret.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;
+  padding: 0;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-img{
+img {
   display: block;
 }
 
-
-
-ul{
+ul {
   list-style-type: none;
 }
-

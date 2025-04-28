@@ -1,4 +1,5 @@
 .review-section {
+  padding: 0;
 }
 .review-wrapper-first {
   background-image: linear-gradient(
@@ -10,6 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 205px 0px 205px 0px;
 }
 .review-wrapper-second {
   background-image: linear-gradient(
@@ -21,8 +23,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 205px 0px 205px 0px;
 }
 .review-list {
+  padding: 0;
 }
 .review-list-item {
   display: flex;
@@ -30,14 +34,41 @@
   text-align: center;
 }
 .review-image {
-    width: 630px;
-    height: 460px;
-    border-radius: 10px;
+  width: 630px;
+  height: 460px;
+  border-radius: 10px;
+  
 }
 .review-title {
-
+  color: white;
+  width: 479px;
+  height: 119px;
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: left;
+  line-height: 50px;
 }
 .review-paragraph {
+  width: 407px;
+  height: 83px;
+  @extend %mainFont;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e0e0e0;
+  line-height: 28px;
+  letter-spacing: 1%;
+  text-align: left;
 }
 .review-btn {
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  border-radius: 32px;
+  width: 179px;
+  height: 59px;
+  padding: 16px 24px;
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 18px;
 }
