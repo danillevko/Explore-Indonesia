@@ -260,6 +260,10 @@
   font-size: 18px;
 }
 
+.review-btn:hover {
+  background-color: #c9203c;
+}
+
 .secrets {
   padding-top: 127px;
   padding-bottom: 933px;
