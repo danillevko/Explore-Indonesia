@@ -91,6 +91,10 @@
   height: 814px;
 }
 
+.container-hero {
+  padding-left: 400px;
+}
+
 .hero-title {
   width: 627px;
   height: 260px;
@@ -105,7 +109,7 @@
 .hero-btn {
   font-weight: 700;
   font-size: 20px;
-  background-color: #DD2242;
+  background-color: #dd2242;
   color: white;
   padding: 20px;
   width: 271.1411437988px;
@@ -113,7 +117,7 @@
   border: none;
   border-radius: 221px;
   line-height: 150%;
-  margin-bottom: 241px;
+  margin-bottom: 197px;
 }
 
 .hero-btn:hover {
@@ -135,7 +139,7 @@
 }
 
 .hero-item-num {
-  color: #DD2242;
+  color: #dd2242;
   font-weight: 900;
   font-size: 16px;
   margin-bottom: 14px;
@@ -160,6 +164,35 @@
   color: #939393;
 }
 
+.video-wrapper {
+  position: relative;
+  width: 417px;
+  height: 254px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
+}
+
+.video {
+  width: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 .learn-more {
   background-size: cover;
   background-repeat: no-repeat;
@@ -167,6 +200,7 @@
   background-image: url(..//../img/learn-more-bg.png);
   padding-top: 249px;
   padding-bottom: 256px;
+  text-align: center;
 }
 
 .learn-more-title {
@@ -230,12 +264,44 @@
   margin: 0 auto;
 }
 
-.life-review-video {
+.video-wrapper {
+  position: relative;
   width: 1056px;
   height: 594px;
+  margin-bottom: 127px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
   border-radius: 10px;
-  margin-bottom: 125px;
-  margin: 0 auto;
+}
+
+.video {
+  width: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: #e93a7d;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modified {
+  width: 233px;
+  height: 151px;
+}
+
+.btn-modified {
+  background: none;
 }
 
 .life-review-list {
@@ -444,6 +510,8 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 205px 0px 205px 0px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .review-list {
@@ -453,7 +521,12 @@
 .review-list-item {
   display: flex;
   gap: 130px;
-  text-align: center;
+  text-align: left;
+}
+
+.review-item-direction {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .review-image {

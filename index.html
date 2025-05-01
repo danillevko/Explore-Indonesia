@@ -46,31 +46,39 @@
             </svg>
         </header>
         <main class="main">
-            <div class="container">
+            <div class="container-hero">
                 <section class="hero">
                     <h1 class="hero-title">explore<div>indonesia</div>
                     </h1>
                     <button type="button" class="hero-btn">Start travelling</button>
-                    <div class="hero-wrapper">
-                        <ul class="hero-list">
-                            <li class="hero-item">
-                                <h6 class="hero-item-num">01</h6>
-                                <h6 class="hero-item-title">Title here</h6>
-                                <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                            </li>
-                            <li class="hero-item">
-                                <h6 class="hero-item-num">02</h6>
-                                <h6 class="hero-item-title">Title here</h6>
-                                <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                            </li>
-                            <li class="hero-item">
-                                <h6 class="hero-item-num">03</h6>
-                                <h6 class="hero-item-title">Title here</h6>
-                                <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                            </li>
-                        </ul>
+                    <div style="display: flex;">
+                        <div class="hero-wrapper">
+                            <ul class="hero-list">
+                                <li class="hero-item">
+                                    <h6 class="hero-item-num">01</h6>
+                                    <h6 class="hero-item-title">Title here</h6>
+                                    <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                                </li>
+                                <li class="hero-item">
+                                    <h6 class="hero-item-num">02</h6>
+                                    <h6 class="hero-item-title">Title here</h6>
+                                    <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                                </li>
+                                <li class="hero-item">
+                                    <h6 class="hero-item-num">03</h6>
+                                    <h6 class="hero-item-title">Title here</h6>
+                                    <p class="hero-item-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="video-wrapper">
+                            <img src="./img/hero-video-img.png" alt="" class="video-thumbnail">
+                            <button class="play-button" onclick="playVideo()">▶</button>
+                            <video controls style="display: none;" class="video" id="myVideo">
+                                <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+                            </video>
+                        </div>
                     </div>
-                    <video src="#" class="hero-video"></video>
                 </section>
             </div>
     </div>
@@ -92,18 +100,19 @@
         </div>
         <div class="review-wrapper-second">
             <div class="container">
-                <li class="review-list-item">
-                    <img src="./img/beach.png" alt="" class="review-image">
-                    <div>
-                        <h4 class="review-title">Perfect beaches exude relaxation and fun</h4>
-                        <p class="review-paragraph">Lorem ipsum dolor sit amet, consectetur adip iscing elit.
-                            Fusce
-                            commodo
-                            magna et libero mollis
-                            rhoncus. </p>
-                        <button type="button" class="review-btn">Learn More</button>
-                    </div>
-                </li>
+                <ul>
+                    <li class="review-list-item review-item-direction">
+                        <img src="./img/beach.png" alt="" class="review-image">
+                        <div>
+                            <h4 class="review-title">Perfect beaches exude relaxation and fun</h4>
+                            <p class="review-paragraph">Lorem ipsum dolor sit amet, consectetur adip iscing elit.
+                                Fusce
+                                commodo
+                                magna et libero mollis
+                                rhoncus. </p>
+                            <button type="button" class="review-btn">Learn More</button>
+                        </div>
+                    </li>
             </div>
         </div>
         </ul>
@@ -165,10 +174,22 @@
         <div class="container">
             <h2 class="life-review-title">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.
             </h2>
-            <video src="" class="life-review-video"></video>
+            <div class="video-wrapper">
+                <img src="./img/streets.png" alt="" class="video-thumbnail">
+                <button class="play-button" onclick="playVideo()">▶</button>
+                <video controls style="display: none;" class="video" id="myVideo">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+                </video>
+            </div>
             <ul class="life-review-list">
                 <li class="life-review-list-item">
-                    <video src="" class="life-review-item-video"></video>
+                    <div class="video-wrapper modified">
+                        <img src="./img/country.png" alt="" class="video-thumbnail">
+                        <button class="play-button btn-modified" onclick="playVideo()">▶</button>
+                        <video controls style="display: none;" class="video" id="myVideo">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+                        </video>
+                    </div>
                     <div>
                         <h6 class="life-review-item-title">In The Country</h6>
                         <p class="life-review-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -177,7 +198,13 @@
                     </div>
                 </li>
                 <li class="life-review-list-item">
-                    <video src="" class="life-review-item-video"></video>
+                    <div class="video-wrapper modified">
+                        <img src="./img/city.png" alt="" class="video-thumbnail">
+                        <button class="play-button btn-modified" onclick="playVideo()">▶</button>
+                        <video controls style="display: none;" class="video" id="myVideo">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+                        </video>
+                    </div>
                     <div>
                         <h6 class="life-review-item-title">In The City</h6>
                         <p class="life-review-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -268,6 +295,9 @@
     </div>
 </body>
 
+<script src="./script.js">
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>

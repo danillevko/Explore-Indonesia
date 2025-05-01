@@ -20,12 +20,44 @@
   margin-bottom: 67px;
   margin: 0 auto;
 }
-.life-review-video {
+.video-wrapper {
+  position: relative;
   width: 1056px;
   height: 594px;
+  margin-bottom: 127px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
   border-radius: 10px;
-  margin-bottom: 125px;
-  margin: 0 auto;
+}
+
+.video {
+  width: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: #e93a7d;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modified {
+  width: 233px;
+  height: 151px;
+}
+
+.btn-modified{
+  background: none;
 }
 .life-review-list {
   display: flex;

@@ -24,6 +24,8 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 205px 0px 205px 0px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .review-list {
   padding: 0;
@@ -31,8 +33,13 @@
 .review-list-item {
   display: flex;
   gap: 130px;
-  text-align: center;
+  text-align: left;
 }
+.review-item-direction{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .review-image {
   width: 630px;
   height: 460px;
@@ -71,6 +78,6 @@
   font-weight: 700;
   font-size: 18px;
 }
-.review-btn:hover{
+.review-btn:hover {
   background-color: #c9203c;
 }
