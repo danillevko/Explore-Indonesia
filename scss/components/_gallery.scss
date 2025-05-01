@@ -1,0 +1,27 @@
+.gallery {
+  padding-top: 177px;
+  text-align: center;
+  padding-bottom: 229px;
+}
+.gallery-title {
+  width: 615px;
+  height: 52px;
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  color: #010a20;
+  margin: 0 auto;
+  margin-bottom: 41px;
+}
+.gallery-paragraph {
+  width: 511px;
+  height: 47px;
+  @extend %mainFont;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  color: #6f7787;
+  margin: 0 auto;
+}

@@ -1,0 +1,92 @@
+.process {
+  background-color: #dce8f2;
+  padding-top: 119px;
+  padding-bottom: 117px;
+  @extend %mainFont;
+}
+.process-title {
+  width: 615px;
+  height: 76px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #010a20;
+}
+.process-list {
+}
+.process-list-item {
+}
+.one{
+    @extend %mainFont;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    background-color: #dd2242;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 50%;
+    width: 8px;
+    height: 38px;
+}
+.process-item-num {
+  @extend %mainFont;
+  font-weight: 500;
+  font-size: 26px;
+  color: white;
+  background-color: #dd2242;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 38px;
+}
+.process-item-title {
+  width: 336px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #010a20;
+  line-height: 41px;
+}
+.process-item-paragraph {
+  width: 1038px;
+  height: 114px;
+  color: #15143966;
+  opacity: 40%;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 38px;
+}
+.process-item-img {
+  width: 249px;
+  height: 165px;
+}
+.process-item-title-another {
+  font-weight: 700;
+  font-size: 26px;
+  color: #010a20;
+  line-height: 41px;
+  width: 197px;
+  height: 42px;
+}
+.process-item-paragraph-another {
+  width: 446px;
+  height: 114px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 38px;
+  color: #15143966;
+  opacity: 40%;
+}
+.process-item-btn {
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  width: 210px;
+  height: 64px;
+  padding: 16px 24px;
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  border-radius: 122px;
+}
