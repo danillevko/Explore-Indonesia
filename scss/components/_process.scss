@@ -14,18 +14,21 @@
 .process-list {
 }
 .process-list-item {
+  display: flex;
+  gap: 15px;
 }
-.one{
-    @extend %mainFont;
-    font-weight: 500;
-    font-size: 26px;
-    color: white;
-    background-color: #dd2242;
-    padding: 10px 24px;
-    border: none;
-    border-radius: 50%;
-    width: 8px;
-    height: 38px;
+.one {
+  @extend %mainFont;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  color: white;
+  background-color: #dd2242;
+  border: none;
+  border-radius: 50%;
+  width: 8px;
+  height: 38px;
+  padding: 24px 8px;
 }
 .process-item-num {
   @extend %mainFont;
@@ -33,11 +36,11 @@
   font-size: 26px;
   color: white;
   background-color: #dd2242;
-  padding: 10px 20px;
   border: none;
   border-radius: 50%;
-  width: 16px;
+  width: 8px;
   height: 38px;
+  padding: 24px 8px;
 }
 .process-item-title {
   width: 336px;

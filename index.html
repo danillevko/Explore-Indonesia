@@ -71,13 +71,16 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="video-wrapper">
-                            <img src="./img/hero-video-img.png" alt="" class="video-thumbnail">
-                            <button class="play-button" onclick="playVideo()">▶</button>
-                            <video controls style="display: none;" class="video" id="myVideo">
-                                <source src="https://www.w3schools.com/html/mov_bbb.mp4">
-                            </video>
+                        <div style="position: absolute; right: 0;">
+                            <div class="video-wrapper">
+                                <img src="./img/hero-video-img.png" alt="" class="video-thumbnail">
+                                <button class="play-button" onclick="playVideo()">▶</button>
+                                <video controls style="display: none;" class="video" id="myVideo">
+                                    <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+                                </video>
+                            </div>
                         </div>
+
                     </div>
                 </section>
             </div>
@@ -174,7 +177,7 @@
         <div class="container">
             <h2 class="life-review-title">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.
             </h2>
-            <div class="video-wrapper">
+            <div class="video-wrapper video-modefied-lifereview">
                 <img src="./img/streets.png" alt="" class="video-thumbnail">
                 <button class="play-button" onclick="playVideo()">▶</button>
                 <video controls style="display: none;" class="video" id="myVideo">
@@ -220,7 +223,32 @@
             <p class="gallery-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
                 mauris in lectus tempus, eget
                 tincidunt.</p>
-            <!-- images -->
+            <ul class="gallery-list">
+                <div class="gallery-wrapper">
+                    <li class="gallery-list-item girls">
+                        <img src="./img/girls-gallery.png" alt="" class="gallery-img">
+                    </li>
+                    <li class="gallery-list-item ocean">
+                        <img src="./img/ocean-gallery.png" alt="" class="gallery-img">
+                    </li>
+                </div>
+                <div class="gallery-wrapper">
+                    <li class="gallery-list-item volcano">
+                        <img src="./img/volcano-gallery.png" alt="" class="gallery-img">
+                    </li>
+                    <li class="gallery-list-item mountain">
+                        <img src="./img/moutain-gallery.png" alt="" class="gallery-img">
+                    </li>
+                </div>
+                <div class="gallery-wrapper">
+                    <li class="gallery-list-item men">
+                        <img src="./img/men-gallery.png" alt="" class="gallery-img">
+                    </li>
+                    <li class="gallery-list-item waterfall">
+                        <img src="./img/waterfall-gallery.png" alt="" class="gallery-img">
+                    </li>
+                </div>
+            </ul>
         </section>
     </div>
     <section class="process">
@@ -229,32 +257,49 @@
             <ul class="process-list">
                 <li class="process-list-item">
                     <span class="process-item-num one">1</span>
-                    <h5 class="process-item-title">Bookings your flights</h5>
-                    <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                        dapibus mauris in lectus
-                        tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
-                        eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                    <div>
+                        <h5 class="process-item-title">Bookings your flights</h5>
+                        <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus
+                            dapibus mauris in lectus
+                            tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent
+                            sed
+                            eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                    </div>
                 </li>
                 <li class="process-list-item">
                     <span class="process-item-num">2</span>
-                    <h5 class="process-item-title">Choosing your hotel</h5>
-                    <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                        dapibus mauris in lectus
-                        tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
-                        eros tincidunt, viverra neque auctor, lobortis enim.</p>
-                    <img src="./img/motocycle.png" alt="" class="process-item-img">
-                    <h5 class="process-item-title-another">Travelling there</h5>
-                    <p class="process-item-paragraph-another">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Phasellus dapibus mauris in lectus
-                        tempus, eget tincidunt.</p>
+                    <div>
+                        <h5 class="process-item-title">Choosing your hotel</h5>
+                        <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus
+                            dapibus mauris in lectus
+                            tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent
+                            sed
+                            eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                        <div style="display: flex; gap: 45px; margin: 93px 0px 110px 0px;">
+                            <img src="./img/motocycle.png" alt="" class="process-item-img">
+                            <div>
+                                <h5 class="process-item-title-another">Travelling there</h5>
+                                <p class="process-item-paragraph-another">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Phasellus dapibus mauris in lectus
+                                    tempus, eget tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="process-list-item">
                     <span class="process-item-num">3</span>
-                    <h5 class="process-item-title">Planning your experiences</h5>
-                    <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                        dapibus mauris in lectus
-                        tempus, eget tincidunt lacus varius. </p>
-                    <button type="button" class="process-item-btn">Learn More</button>
+                    <div>
+                        <h5 class="process-item-title">Planning your experiences</h5>
+                        <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus
+                            dapibus mauris in lectus
+                            tempus, eget tincidunt lacus varius. </p>
+                        <button type="button" class="process-item-btn">Learn More</button>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -262,16 +307,17 @@
     </main>
     <div class="container">
         <footer>
-            <svg class="facebook-icon">
-                <use href="./img/symbols.svg#flower-icon">
-                </use>
-            </svg>
-            <a href="./index.html">Explore Indonesia</a>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Blog</a></li>
+            <div class="footer-logo-wrapper">
+                <svg class="footer-flower-icon">
+                    <use href="./img/symbols.svg#flower-icon">
+                    </use>
+                </svg>
+                <a href="./index.html" class="footer-logo">Explore<div>Indonesia</div></a>
+            </div>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Blog</a></li>
             </ul>
             <ul>
                 <li>

@@ -1,0 +1,25 @@
+.footer-header-wrapper {
+  display: flex;
+  gap: 64px;
+}
+.footer-flower-icon {
+  width: 40px;
+  height: 49px;
+}
+.footer-logo-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.footer-logo {
+    width: 128px;
+    height: 56px;
+    text-transform: uppercase;
+    text-decoration: none;
+    @extend %secondaryFont;
+    display: block;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.32px;
+    line-height: 81%;
+  }

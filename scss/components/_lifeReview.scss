@@ -7,6 +7,7 @@
   padding-top: 141px;
   color: white;
   margin: 0 auto;
+  
 }
 .life-review-title {
   width: 1056px;
@@ -22,9 +23,14 @@
 }
 .video-wrapper {
   position: relative;
+  margin-bottom: 127px;
+}
+
+.video-modefied-lifereview {
   width: 1056px;
   height: 594px;
-  margin-bottom: 127px;
+  margin: 0 auto;
+  margin-bottom: 125px;
 }
 
 .video-thumbnail {
@@ -56,7 +62,7 @@
   height: 151px;
 }
 
-.btn-modified{
+.btn-modified {
   background: none;
 }
 .life-review-list {

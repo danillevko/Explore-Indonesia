@@ -1,3 +1,31 @@
+.footer-header-wrapper {
+  display: flex;
+  gap: 64px;
+}
+
+.footer-flower-icon {
+  width: 40px;
+  height: 49px;
+}
+
+.footer-logo-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 128px;
+  height: 56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.32px;
+  line-height: 81%;
+}
+
 .gallery {
   padding-top: 177px;
   text-align: center;
@@ -24,6 +52,45 @@
   letter-spacing: 1%;
   color: #6f7787;
   margin: 0 auto;
+  margin-bottom: 71px;
+}
+
+.gallery-list {
+  display: flex;
+  gap: 30px;
+}
+
+.girls {
+  width: 370px;
+  height: 530px;
+  margin-bottom: 30px;
+}
+
+.ocean {
+  width: 370px;
+  height: 210px;
+}
+
+.volcano {
+  width: 370px;
+  height: 210px;
+  margin-bottom: 30px;
+}
+
+.mountain {
+  width: 370px;
+  height: 530px;
+}
+
+.men {
+  width: 370px;
+  height: 370px;
+  margin-bottom: 30px;
+}
+
+.waterfall {
+  width: 370px;
+  height: 370px;
 }
 
 .header {
@@ -89,10 +156,12 @@
 
 .hero {
   height: 814px;
+  position: relative;
 }
 
 .container-hero {
-  padding-left: 400px;
+  width: 1642px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -126,6 +195,9 @@
 
 .hero-wrapper {
   background-color: rgba(0, 0, 0, 0.6);
+  height: 210px;
+  position: absolute;
+  bottom: 0;
 }
 
 .hero-list {
@@ -168,6 +240,7 @@
   position: relative;
   width: 417px;
   height: 254px;
+  right: 0;
 }
 
 .video-thumbnail {
@@ -266,9 +339,14 @@
 
 .video-wrapper {
   position: relative;
+  margin-bottom: 127px;
+}
+
+.video-modefied-lifereview {
   width: 1056px;
   height: 594px;
-  margin-bottom: 127px;
+  margin: 0 auto;
+  margin-bottom: 125px;
 }
 
 .video-thumbnail {
@@ -412,16 +490,22 @@
   color: #010a20;
 }
 
+.process-list-item {
+  display: flex;
+  gap: 15px;
+}
+
 .one {
   font-weight: 500;
   font-size: 26px;
+  line-height: 38px;
   color: white;
   background-color: #dd2242;
-  padding: 10px 24px;
   border: none;
   border-radius: 50%;
   width: 8px;
   height: 38px;
+  padding: 24px 8px;
 }
 
 .process-item-num {
@@ -429,11 +513,11 @@
   font-size: 26px;
   color: white;
   background-color: #dd2242;
-  padding: 10px 20px;
   border: none;
   border-radius: 50%;
-  width: 16px;
+  width: 8px;
   height: 38px;
+  padding: 24px 8px;
 }
 
 .process-item-title {
@@ -603,7 +687,7 @@
   font-style: normal;
 }
 
-.logo, .hero-title, .hero-item-num {
+.footer-logo, .logo, .hero-title, .hero-item-num {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
