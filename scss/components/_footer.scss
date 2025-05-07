@@ -1,3 +1,10 @@
+.footer {
+  background-color: #010a20;
+  padding: 50px 153px 35px 70px;
+}
+.footer-logo-separate {
+  color: white;
+}
 .footer-header-wrapper {
   display: flex;
   gap: 64px;
@@ -11,15 +18,62 @@
   gap: 10px;
 }
 .footer-logo {
-    width: 128px;
-    height: 56px;
-    text-transform: uppercase;
-    text-decoration: none;
-    @extend %secondaryFont;
-    display: block;
-    color: white;
-    font-weight: 900;
-    font-size: 24px;
-    letter-spacing: 0.32px;
-    line-height: 81%;
-  }
+  width: 128px;
+  height: 56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  @extend %secondaryFont;
+  display: block;
+  color: #dd2242;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.32px;
+  line-height: 81%;
+}
+.footer-wrapper-first {
+  display: flex;
+  gap: 124px;
+}
+.footer-wrapper-second {
+  display: flex;
+  gap: 50px;
+}
+.footer-list {
+  display: flex;
+  gap: 36px;
+}
+.footer-item {
+}
+.footer-item-link {
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+}
+
+// second list
+
+.footer-list-icon {
+  display: flex;
+  gap: 22px;
+}
+.footer-item-icon {
+}
+
+// icons
+
+.facebook-icon {
+  width: 24px;
+  height: 24px;
+}
+.linkedin-icon {
+  width: 24px;
+  height: 24px;
+}
+.google-icon {
+  width: 24px;
+  height: 24px;
+}

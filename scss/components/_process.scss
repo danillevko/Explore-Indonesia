@@ -16,6 +16,7 @@
 .process-list-item {
   display: flex;
   gap: 15px;
+  margin-bottom: 96px;
 }
 .one {
   @extend %mainFont;

@@ -257,6 +257,7 @@
             <ul class="process-list">
                 <li class="process-list-item">
                     <span class="process-item-num one">1</span>
+                    <div class="line"></div>
                     <div>
                         <h5 class="process-item-title">Bookings your flights</h5>
                         <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -269,6 +270,7 @@
                 </li>
                 <li class="process-list-item">
                     <span class="process-item-num">2</span>
+                    <div class="line two-three"></div>
                     <div>
                         <h5 class="process-item-title">Choosing your hotel</h5>
                         <p class="process-item-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -305,40 +307,47 @@
         </div>
     </section>
     </main>
-    <div class="container">
-        <footer>
-            <div class="footer-logo-wrapper">
-                <svg class="footer-flower-icon">
-                    <use href="./img/symbols.svg#flower-icon">
-                    </use>
-                </svg>
-                <a href="./index.html" class="footer-logo">Explore<div>Indonesia</div></a>
+    <footer class="footer">
+        <div style="display: flex; justify-content: space-between;">
+            <div class="footer-wrapper-first">
+                <div class="footer-logo-wrapper">
+                    <svg class="footer-flower-icon">
+                        <use href="./img/symbols.svg#flower-icon">
+                        </use>
+                    </svg>
+                    <a href="./index.html" class="footer-logo">Explore<div class="footer-logo-separate">Indonesia
+                        </div>
+                    </a>
+                </div>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#" class="footer-item-link">About</a></li>
+                    <li class="footer-item"><a href="#" class="footer-item-link">Pricing</a></li>
+                    <li class="footer-item"><a href="#" class="footer-item-link">Company</a></li>
+                    <li class="footer-item"><a href="#" class="footer-item-link">Blog</a></li>
+                </ul>
             </div>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Blog</a></li>
-            </ul>
-            <ul>
-                <li>
-                    <svg class="facebook-icon">
-                        <use href="./img/symbols.svg#facebook-icon"></use>
-                    </svg>
-                </li>
-                <li>
-                    <svg class="linkedin-icon">
-                        <use href="./img/symbols.svg#linkedin-icon"></use>
-                    </svg>
-                </li>
-                <li>
-                    <svg class="google-icon">
-                        <use href="./img/symbols.svg#google-icon"></use>
-                    </svg>
-                </li>
-            </ul>
-            <h5>Copyright &#169 2025</h5>
-        </footer>
-    </div>
+            <div class="footer-wrapper-second">
+                <ul class="footer-list-icon">
+                    <li class="footer-item-icon">
+                        <svg class="facebook-icon">
+                            <use href="./img/symbols.svg#facebook-icon"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-item-icon">
+                        <svg class="linkedin-icon">
+                            <use href="./img/symbols.svg#linkedin-icon"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-item-icon">
+                        <svg class="google-icon">
+                            <use href="./img/symbols.svg#google-icon"></use>
+                        </svg>
+                    </li>
+                </ul>
+                <h5 class="copyright">Copyright &#169 2025</h5>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="./script.js">

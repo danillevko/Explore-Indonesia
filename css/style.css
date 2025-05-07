@@ -1,3 +1,12 @@
+.footer {
+  background-color: #010a20;
+  padding: 50px 153px 35px 70px;
+}
+
+.footer-logo-separate {
+  color: white;
+}
+
 .footer-header-wrapper {
   display: flex;
   gap: 64px;
@@ -19,11 +28,55 @@
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  color: white;
+  color: #dd2242;
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 0.32px;
   line-height: 81%;
+}
+
+.footer-wrapper-first {
+  display: flex;
+  gap: 124px;
+}
+
+.footer-wrapper-second {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 36px;
+}
+
+.footer-item-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-list-icon {
+  display: flex;
+  gap: 22px;
+}
+
+.facebook-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.linkedin-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.google-icon {
+  width: 24px;
+  height: 24px;
 }
 
 .gallery {
@@ -493,6 +546,7 @@
 .process-list-item {
   display: flex;
   gap: 15px;
+  margin-bottom: 96px;
 }
 
 .one {
@@ -682,7 +736,7 @@
   border-radius: 10px;
 }
 
-.gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-num, .process-item-btn, .review-title, .review-paragraph, .review-btn, .secrets-title {
+.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-num, .process-item-btn, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
@@ -722,4 +776,25 @@ img {
 
 ul {
   list-style-type: none;
+}
+
+.copyright {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: white;
+  width: 163px;
+  height: 28px;
+}
+
+.line {
+  height: 220px;
+  width: 3px;
+  color: 21, 20, 57, 0.4;
+  opacity: 40%;
+}
+
+.two-three {
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */
