@@ -15,8 +15,7 @@
 }
 .process-list-item {
   display: flex;
-  gap: 15px;
-  margin-bottom: 96px;
+  gap: 44px;
 }
 .one {
   @extend %mainFont;
@@ -31,18 +30,7 @@
   height: 38px;
   padding: 24px 8px;
 }
-.process-item-num {
-  @extend %mainFont;
-  font-weight: 500;
-  font-size: 26px;
-  color: white;
-  background-color: #dd2242;
-  border: none;
-  border-radius: 50%;
-  width: 8px;
-  height: 38px;
-  padding: 24px 8px;
-}
+
 .process-item-title {
   width: 336px;
   height: 42px;

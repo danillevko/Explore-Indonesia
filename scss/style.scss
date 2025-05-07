@@ -40,8 +40,10 @@ img {
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-end: 0;
 }
-.copyright{
+.copyright {
   @extend %mainFont;
   font-weight: 700;
   font-size: 18px;
@@ -51,12 +53,61 @@ ul {
   width: 163px;
   height: 28px;
 }
-.line{
-  height: 220px;
-  width: 3px;
-  color: (21, 20, 57, 0.4);
-  opacity: 40%;
+.line {
+  display: flex;
+  align-items: start;
+  position: relative;
+  margin-bottom: 59px;
 }
-.two-three{
-  height: 500px;
+.line-3::after {
+  // position: absolute;
+  // content: "";
+  // width: 3px;
+  // height: 100%;
+  // background-color: red;
+  // top: 59px;
+  // left: 29.5px;
+}
+.line-3{
+  display: flex;
+  gap: 44px;
+}
+.line::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  top: 59px;
+  left: 29.5px;
+}
+.line::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  top: 59px;
+  left: 29.5px;
+}
+.circle {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  display: flex;
+  @extend %mainFont;
+  font-weight: 500;
+  font-size: 26px;
+  color: white;
+  background-color: #dd2242;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 314px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

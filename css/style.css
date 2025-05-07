@@ -545,26 +545,13 @@
 
 .process-list-item {
   display: flex;
-  gap: 15px;
-  margin-bottom: 96px;
+  gap: 44px;
 }
 
 .one {
   font-weight: 500;
   font-size: 26px;
   line-height: 38px;
-  color: white;
-  background-color: #dd2242;
-  border: none;
-  border-radius: 50%;
-  width: 8px;
-  height: 38px;
-  padding: 24px 8px;
-}
-
-.process-item-num {
-  font-weight: 500;
-  font-size: 26px;
   color: white;
   background-color: #dd2242;
   border: none;
@@ -736,7 +723,7 @@
   border-radius: 10px;
 }
 
-.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-num, .process-item-btn, .review-title, .review-paragraph, .review-btn, .secrets-title {
+.circle, .copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
@@ -776,6 +763,8 @@ img {
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-end: 0;
 }
 
 .copyright {
@@ -789,12 +778,55 @@ ul {
 }
 
 .line {
-  height: 220px;
-  width: 3px;
-  color: 21, 20, 57, 0.4;
-  opacity: 40%;
+  display: flex;
+  align-items: start;
+  position: relative;
+  margin-bottom: 59px;
 }
 
-.two-three {
-  height: 500px;
+.line-3 {
+  display: flex;
+  gap: 44px;
+}
+
+.line::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  top: 59px;
+  left: 29.5px;
+}
+
+.line::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  top: 59px;
+  left: 29.5px;
+}
+
+.circle {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 500;
+  font-size: 26px;
+  color: white;
+  background-color: #dd2242;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 314px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
