@@ -110,3 +110,33 @@
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 767px) {
+  .hero-title {
+    width: 314px;
+    height: 126px;
+    font-size: 58px;
+    line-height: 63px;
+  }
+  .hero-btn {
+    width: 315px;
+    height: 59px;
+    border-radius: 107px;
+    padding: 10.2px;
+    margin-bottom: 64px;
+  }
+  .hero {
+    height: 996px;
+  }
+  .hero-list{
+    display: block;
+    padding: 35px 71px 0px 32px;
+  }
+  .hero-wrapper {
+    width: 314px;
+    height: 472px;
+  }
+  .hero-item-p{
+    font-size: 16px;
+    margin-bottom: 31px;
+  }
+}

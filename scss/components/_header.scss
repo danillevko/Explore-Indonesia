@@ -1,5 +1,5 @@
 .header {
- padding-top: 40px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 180px;
@@ -29,7 +29,7 @@
   letter-spacing: 0.32px;
   line-height: 81%;
 }
-.logo:hover{
+.logo:hover {
   color: white;
 }
 .header-list {
@@ -45,10 +45,31 @@
   text-decoration: none;
   color: white;
 }
-.header-link:hover{
+.header-link:hover {
   color: rgb(219, 219, 219);
 }
 .search-icon {
   width: 24px;
   height: 24px;
+}
+@media screen and (max-width: 767px) {
+  .flower-icon {
+    width: 42px;
+    height: 42px;
+  }
+  .logo {
+    width: 111px;
+    height: 49px;
+    font-size: 21px;
+    line-height: 81%;
+  }
+  .header-list {
+    display: none;
+  }
+  .search-icon {
+    margin-right: 52px;
+  }
+  .header{
+    margin-bottom: 45px;
+  }
 }

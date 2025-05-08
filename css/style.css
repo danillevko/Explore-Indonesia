@@ -207,6 +207,27 @@
   height: 24px;
 }
 
+@media screen and (max-width: 767px) {
+  .flower-icon {
+    width: 42px;
+    height: 42px;
+  }
+  .logo {
+    width: 111px;
+    height: 49px;
+    font-size: 21px;
+    line-height: 81%;
+  }
+  .header-list {
+    display: none;
+  }
+  .search-icon {
+    margin-right: 52px;
+  }
+  .header {
+    margin-bottom: 45px;
+  }
+}
 .hero {
   height: 814px;
   position: relative;
@@ -319,6 +340,36 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media screen and (max-width: 767px) {
+  .hero-title {
+    width: 314px;
+    height: 126px;
+    font-size: 58px;
+    line-height: 63px;
+  }
+  .hero-btn {
+    width: 315px;
+    height: 59px;
+    border-radius: 107px;
+    padding: 10.2px;
+    margin-bottom: 64px;
+  }
+  .hero {
+    height: 996px;
+  }
+  .hero-list {
+    display: block;
+    padding: 35px 71px 0px 32px;
+  }
+  .hero-wrapper {
+    width: 314px;
+    height: 472px;
+  }
+  .hero-item-p {
+    font-size: 16px;
+    margin-bottom: 31px;
+  }
+}
 .learn-more {
   background-size: cover;
   background-repeat: no-repeat;
@@ -617,6 +668,52 @@
   border-radius: 122px;
 }
 
+.line {
+  display: flex;
+  align-items: start;
+  position: relative;
+  margin-bottom: 59px;
+}
+
+.line-3 {
+  display: flex;
+  gap: 44px;
+}
+
+.line::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  top: 59px;
+  left: 29.5px;
+}
+
+.line::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  top: 59px;
+  left: 29.5px;
+}
+
+.circle {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 500;
+  font-size: 26px;
+  color: white;
+  background-color: #dd2242;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
 .review-section {
   padding: 0;
 }
@@ -723,7 +820,7 @@
   border-radius: 10px;
 }
 
-.circle, .copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .review-title, .review-paragraph, .review-btn, .secrets-title {
+.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .circle, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
@@ -775,52 +872,6 @@ ul {
   color: white;
   width: 163px;
   height: 28px;
-}
-
-.line {
-  display: flex;
-  align-items: start;
-  position: relative;
-  margin-bottom: 59px;
-}
-
-.line-3 {
-  display: flex;
-  gap: 44px;
-}
-
-.line::after {
-  position: absolute;
-  content: "";
-  width: 3px;
-  height: 100%;
-  background-color: red;
-  top: 59px;
-  left: 29.5px;
-}
-
-.line::before {
-  position: absolute;
-  content: "";
-  width: 3px;
-  height: 100%;
-  background-color: red;
-  top: 59px;
-  left: 29.5px;
-}
-
-.circle {
-  width: 59px;
-  height: 59px;
-  border-radius: 50%;
-  display: flex;
-  font-weight: 500;
-  font-size: 26px;
-  color: white;
-  background-color: #dd2242;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
 }
 
 @media screen and (max-width: 767px) {
