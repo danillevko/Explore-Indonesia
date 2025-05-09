@@ -1,58 +1,89 @@
 .numbers {
-    background-color: #020C21;
-    opacity: 90%;
-    text-align: center;
-    align-items: center;
-    padding-top: 201px;
-    padding-bottom: 224px;
+  background-color: #020c21;
+  opacity: 90%;
+  text-align: center;
+  align-items: center;
+  padding-top: 201px;
+  padding-bottom: 224px;
 }
 .nums-title {
-    color: #FFFFFF;
-    @extend %mainFont;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 150%;
-    width: 615px;
-    height: 52px;
-    margin: 0 auto;
+  color: #ffffff;
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  width: 615px;
+  height: 52px;
+  margin: 0 auto;
 }
 .nums-paragraph {
-    width: 484px;
-    height: 102px;
-    @extend %mainFont;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-    margin: 0 auto;
-    margin-top: 40px;
-    color: #E0E0E0;
+  width: 484px;
+  height: 102px;
+  @extend %mainFont;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #e0e0e0;
 }
 .nums-list {
-    margin-top: 39px;
-    display: flex;
-    gap: 127px;
+  margin-top: 39px;
+  display: flex;
+  gap: 127px;
 }
 .nums-list-item {
 }
 .nums-item-title {
-    width: 137px;
-    height: 49px;
-    @extend %mainFont;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 49px;
-    letter-spacing: 0.4px;
-    color: #DD2242;
-    margin: 0 auto;
+  width: 137px;
+  height: 49px;
+  @extend %mainFont;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.4px;
+  color: #dd2242;
+  margin: 0 auto;
 }
 .nums-item-paragraph {
-    width: 340px;
+  width: 340px;
+  height: 70px;
+  @extend %mainFont;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #e0e0e0;
+}
+@media screen and (max-width: 767px) {
+  .nums-list {
+    display: block;
+  }
+  .nums-title {
+    width: 314px;
+    height: 52px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .nums-paragraph {
+    width: 314px;
+    height: 167px;
+  }
+  .numbers{
+    padding-top: 72px;
+    padding-bottom: 27px;
+  }
+  .nums-item-title{
+    width: 314px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .nums-item-paragraph{
+    width: 314px;
     height: 70px;
-    @extend %mainFont;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-    color: #E0E0E0;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 43px;
+  }
 }

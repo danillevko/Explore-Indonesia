@@ -522,7 +522,7 @@
 }
 
 .numbers {
-  background-color: #020C21;
+  background-color: #020c21;
   opacity: 90%;
   text-align: center;
   align-items: center;
@@ -531,7 +531,7 @@
 }
 
 .nums-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 60px;
   line-height: 150%;
@@ -549,7 +549,7 @@
   letter-spacing: 0.5px;
   margin: 0 auto;
   margin-top: 40px;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .nums-list {
@@ -565,7 +565,7 @@
   font-size: 42px;
   line-height: 49px;
   letter-spacing: 0.4px;
-  color: #DD2242;
+  color: #dd2242;
   margin: 0 auto;
 }
 
@@ -576,9 +576,40 @@
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.5px;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
+@media screen and (max-width: 767px) {
+  .nums-list {
+    display: block;
+  }
+  .nums-title {
+    width: 314px;
+    height: 52px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .nums-paragraph {
+    width: 314px;
+    height: 167px;
+  }
+  .numbers {
+    padding-top: 72px;
+    padding-bottom: 27px;
+  }
+  .nums-item-title {
+    width: 314px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .nums-item-paragraph {
+    width: 314px;
+    height: 70px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 43px;
+  }
+}
 .process {
   background-color: #dce8f2;
   padding-top: 119px;
@@ -793,6 +824,39 @@
   background-color: #c9203c;
 }
 
+@media screen and (max-width: 767px) {
+  .review-list-item {
+    display: block;
+  }
+  .review-wrapper-first,
+  .review-wrapper-second {
+    padding: 55px 0px 55px 0px;
+  }
+  .review-image {
+    width: 314px;
+    height: 232px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  .review-title {
+    width: 314px;
+    height: 162px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .review-paragraph {
+    width: 314px;
+    height: 105px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  }
+  .review-btn {
+    width: 314px;
+    height: 72px;
+    border-radius: 32px;
+  }
+}
 .secrets {
   padding-top: 127px;
   padding-bottom: 933px;
@@ -805,12 +869,16 @@
   font-size: 50px;
   line-height: 150%;
   vertical-align: middle;
-  color: #010A20;
+  color: #010a20;
 }
 
 .secrets-list {
   display: flex;
   gap: 31px;
+}
+
+.secrets-list-item {
+  display: block;
 }
 
 .secrets-img {
@@ -819,6 +887,26 @@
   border-radius: 10px;
 }
 
+.secrets-img-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .secrets-title {
+    width: 314px;
+    height: 112px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .secrets-img-mobile {
+    display: block;
+    width: 314px;
+    height: 200px;
+  }
+  .secrets-list-item {
+    display: none;
+  }
+}
 .copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .circle, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;

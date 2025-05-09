@@ -35,7 +35,7 @@
   gap: 130px;
   text-align: left;
 }
-.review-item-direction{
+.review-item-direction {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -80,4 +80,37 @@
 }
 .review-btn:hover {
   background-color: #c9203c;
+}
+@media screen and (max-width: 767px) {
+  .review-list-item {
+    display: block;
+  }
+  .review-wrapper-first,
+  .review-wrapper-second {
+    padding: 55px 0px 55px 0px;
+  }
+  .review-image{
+    width: 314px;
+    height: 232px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  .review-title{
+    width: 314px;
+    height: 162px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .review-paragraph{
+    width: 314px;
+    height: 105px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  }
+  .review-btn{
+    width: 314px;
+    height: 72px;
+    border-radius: 32px;
+  }
 }
