@@ -7,7 +7,6 @@
   padding-top: 141px;
   color: white;
   margin: 0 auto;
-  
 }
 .life-review-title {
   width: 1056px;
@@ -97,4 +96,46 @@
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.5px;
+}
+@media screen and (max-width: 767px) {
+  .life-review-title {
+    height: 330px;
+    width: 314px;
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  .life-review {
+    padding-top: 83px;
+    align-items: center;
+    text-align: center;
+  }
+  .video-modefied-lifereview {
+    width: 314px;
+    height: 192px;
+    margin-bottom: 40px;
+  }
+  .life-review-list {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .life-review-list-item {
+    display: block;
+    height: 440px;
+  }
+  .modified-lifereview {
+    width: 314px;
+    height: 120px;
+  }
+  .life-review-item-title {
+    width: 217px;
+    height: 35px;
+    font-size: 22px;
+    line-height: 150%;
+  }
+  .life-review-item-paragraph {
+    width: 314px;
+    height: 80px;
+  }
 }

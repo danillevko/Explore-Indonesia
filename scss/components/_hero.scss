@@ -39,7 +39,6 @@
   background-color: rgb(0, 0, 0, 0.6);
   height: 210px;
   position: absolute;
-  bottom: 0;
 }
 .hero-list {
   list-style: none;
@@ -137,5 +136,29 @@
   .hero-item-p {
     font-size: 16px;
     margin-bottom: 31px;
+  }
+  .container-hero {
+    align-items: center;
+    margin: 0 auto;
+    width: 314px;
+  }
+  .video-wrapper {
+    width: 314px;
+    height: 191px;
+    left: 0;
+  }
+  .hero {
+    height: 903px;
+  }
+  .hero-wrapper {
+    top: 193;
+    margin-bottom: 30px;
+  }
+  .hero-video-wrapper-two {
+    height: 191px;
+    bottom: 0;
+  }
+  .hero-list-wrapper {
+    flex-direction: row-reverse;
   }
 }

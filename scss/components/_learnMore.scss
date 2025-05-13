@@ -45,3 +45,24 @@
   border-radius: 122px;
   margin: 0 auto;
 }
+@media screen and (max-width: 767px){
+  .learn-more-title{
+    width: 314px;
+    height: 184px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .learn-more-paragraph{
+    width: 314px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .learn-more-btn{
+    width: 314px;
+  }
+  .learn-more{
+    padding-bottom: 116px;
+    padding-top: 171px;
+  }
+}

@@ -271,7 +271,6 @@
   background-color: rgba(0, 0, 0, 0.6);
   height: 210px;
   position: absolute;
-  bottom: 0;
 }
 
 .hero-list {
@@ -368,6 +367,30 @@
     font-size: 16px;
     margin-bottom: 31px;
   }
+  .container-hero {
+    align-items: center;
+    margin: 0 auto;
+    width: 314px;
+  }
+  .video-wrapper {
+    width: 314px;
+    height: 191px;
+    left: 0;
+  }
+  .hero {
+    height: 903px;
+  }
+  .hero-wrapper {
+    top: 193;
+    margin-bottom: 30px;
+  }
+  .hero-video-wrapper-two {
+    height: 191px;
+    bottom: 0;
+  }
+  .hero-list-wrapper {
+    flex-direction: row-reverse;
+  }
 }
 .learn-more {
   background-size: cover;
@@ -417,6 +440,27 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .learn-more-title {
+    width: 314px;
+    height: 184px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .learn-more-paragraph {
+    width: 314px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .learn-more-btn {
+    width: 314px;
+  }
+  .learn-more {
+    padding-bottom: 116px;
+    padding-top: 171px;
+  }
+}
 .life-review {
   background-size: cover;
   background-repeat: no-repeat;
@@ -521,6 +565,48 @@
   letter-spacing: 0.5px;
 }
 
+@media screen and (max-width: 767px) {
+  .life-review-title {
+    height: 330px;
+    width: 314px;
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  .life-review {
+    padding-top: 83px;
+    align-items: center;
+    text-align: center;
+  }
+  .video-modefied-lifereview {
+    width: 314px;
+    height: 192px;
+    margin-bottom: 40px;
+  }
+  .life-review-list {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .life-review-list-item {
+    display: block;
+    height: 440px;
+  }
+  .modified-lifereview {
+    width: 314px;
+    height: 120px;
+  }
+  .life-review-item-title {
+    width: 217px;
+    height: 35px;
+    font-size: 22px;
+    line-height: 150%;
+  }
+  .life-review-item-paragraph {
+    width: 314px;
+    height: 80px;
+  }
+}
 .numbers {
   background-color: #020c21;
   opacity: 90%;
