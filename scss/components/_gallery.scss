@@ -36,30 +36,46 @@
 }
 .gallery-img {
 }
-.girls{
+.girls {
   width: 370px;
   height: 530px;
   margin-bottom: 30px;
 }
-.ocean{
+.ocean {
   width: 370px;
   height: 210px;
 }
-.volcano{
+.volcano {
   width: 370px;
   height: 210px;
   margin-bottom: 30px;
 }
-.mountain{
+.mountain {
   width: 370px;
   height: 530px;
 }
-.men{
+.men {
   width: 370px;
   height: 370px;
   margin-bottom: 30px;
 }
-.waterfall{
+.waterfall {
   width: 370px;
   height: 370px;
+}
+@media screen and (max-width: 767px) {
+  .gallery-title {
+    width: 314px;
+    height: 52px;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+  .gallery{
+    padding-top: 32px;
+  }
+  .gallery-paragraph{
+    width: 314px;
+    height: 100px;
+  }
 }

@@ -146,6 +146,22 @@
   height: 370px;
 }
 
+@media screen and (max-width: 767px) {
+  .gallery-title {
+    width: 314px;
+    height: 52px;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+  .gallery {
+    padding-top: 32px;
+  }
+  .gallery-paragraph {
+    width: 314px;
+    height: 100px;
+  }
+}
 .header {
   padding-top: 40px;
   display: flex;
