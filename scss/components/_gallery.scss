@@ -63,6 +63,9 @@
   width: 370px;
   height: 370px;
 }
+.gallery-list-adaptive {
+  display: none;
+}
 @media screen and (max-width: 767px) {
   .gallery-title {
     width: 314px;
@@ -71,11 +74,53 @@
     line-height: 46px;
     margin-bottom: 20px;
   }
-  .gallery{
+  .gallery {
     padding-top: 32px;
+    padding-bottom: 40px;
   }
-  .gallery-paragraph{
+  .gallery-paragraph {
     width: 314px;
-    height: 100px;
+    height: 110px;
+    margin-bottom: 34px;
+  }
+  .gallery-list {
+    display: none;
+  }
+  .gallery-list-adaptive {
+    display: flex;
+    gap: 13px;
+  }
+  .gallery-img {
+    width: 151px;
+    border-radius: 10px;
+  }
+  // images
+  .girls {
+    width: 151px;
+    height: 217px;
+    margin-bottom: 12px;
+  }
+  .ocean {
+    width: 151px;
+    height: 86px;
+    margin-bottom: 12px;
+  }
+  .volcano {
+    width: 151px;
+    height: 86px;
+    margin-bottom: 12px;
+  }
+  .mountain {
+    width: 151px;
+    height: 217px;
+    margin-bottom: 12px;
+  }
+  .men {
+    width: 150px;
+    height: 153px;
+  }
+  .waterfall {
+    width: 150px;
+    height: 153px;
   }
 }
