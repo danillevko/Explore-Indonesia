@@ -102,6 +102,7 @@
     align-items: center;
     margin: 0 auto;
     width: 174px;
+    margin-bottom: 36px;
   }
   .footer-list {
     display: block;
@@ -918,6 +919,7 @@
   align-items: start;
   position: relative;
   margin-bottom: 59px;
+  gap: 44px;
 }
 
 .line-3 {
@@ -959,6 +961,97 @@
   padding: 0;
 }
 
+.process-link-mobile {
+  display: none;
+}
+
+.process-another-wrapper {
+  display: flex;
+  gap: 45px;
+  margin: 93px 0px 110px 0px;
+}
+
+.process-span-mobile {
+  display: none;
+  color: rgba(21, 20, 57, 0.4);
+  opacity: 40%;
+  width: 314px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .process {
+    padding-top: 29px;
+    padding-bottom: 73px;
+    display: block;
+    text-align: center;
+  }
+  .process-title {
+    width: 260px;
+    height: 46px;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 45px;
+  }
+  .circle {
+    width: 56px;
+    height: 56px;
+  }
+  .line {
+    display: block;
+  }
+  .line::after {
+    display: none;
+  }
+  .line::before {
+    display: none;
+  }
+  .container-mobile {
+    display: block;
+  }
+  .process-list {
+    display: block;
+  }
+  .process-list-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .process-item-title {
+    width: 283px;
+    height: 33px;
+    font-size: 22px;
+    line-height: 150%;
+  }
+  .process-item-paragraph {
+    display: none;
+  }
+  .process-item-paragraph-another {
+    display: none;
+  }
+  .process-link-mobile {
+    display: block;
+  }
+  .process-item-btn {
+    display: none;
+  }
+  .process-item-img {
+    width: 314px;
+    height: 208px;
+    margin-bottom: 40px;
+  }
+  .process-another-wrapper {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 32px 0 32px 0;
+  }
+  .process-span-mobile {
+    display: block;
+  }
+}
 .review-section {
   padding: 0;
 }
@@ -1122,7 +1215,7 @@
     display: none;
   }
 }
-.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .circle, .review-title, .review-paragraph, .review-btn, .secrets-title {
+.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .circle, .process-span-mobile, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
