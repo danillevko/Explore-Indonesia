@@ -89,6 +89,7 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    padding: 92px 0px 83px 0px;
   }
   .footer-logo {
     height: 56px;
@@ -982,15 +983,21 @@
   line-height: 24px;
 }
 
+.process-link-mobile {
+  text-decoration: none;
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .process {
     padding-top: 29px;
     padding-bottom: 73px;
     display: block;
     text-align: center;
+    align-items: center;
   }
   .process-title {
-    width: 260px;
+    width: 314px;
     height: 46px;
     font-size: 40px;
     line-height: 46px;
@@ -1018,9 +1025,10 @@
   .process-list-item {
     flex-direction: column;
     align-items: center;
+    gap: 24px;
   }
   .process-item-title {
-    width: 283px;
+    width: 314px;
     height: 33px;
     font-size: 22px;
     line-height: 150%;
@@ -1031,8 +1039,16 @@
   .process-item-paragraph-another {
     display: none;
   }
+  .process-item-title-another {
+    width: 314px;
+  }
   .process-link-mobile {
     display: block;
+    color: #dd2242;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 3px;
   }
   .process-item-btn {
     display: none;
@@ -1043,10 +1059,11 @@
     margin-bottom: 40px;
   }
   .process-another-wrapper {
+    margin: 0;
     display: block;
     align-items: center;
     text-align: center;
-    margin: 32px 0 32px 0;
+    margin-top: 32px;
   }
   .process-span-mobile {
     display: block;
@@ -1215,7 +1232,7 @@
     display: none;
   }
 }
-.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .circle, .process-span-mobile, .review-title, .review-paragraph, .review-btn, .secrets-title {
+.copyright, .footer-item-link, .gallery-title, .gallery-paragraph, .hero-btn, .hero-item-title, .hero-item-p, .learn-more-title, .learn-more-paragraph, .learn-more-btn, .life-review-title, .life-review-item-title, .life-review-item-paragraph, .nums-title, .nums-paragraph, .nums-item-title, .nums-item-paragraph, .process, .one, .process-item-btn, .circle, .process-span-mobile, .process-link-mobile, .review-title, .review-paragraph, .review-btn, .secrets-title {
   font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
