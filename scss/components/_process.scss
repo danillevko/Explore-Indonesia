@@ -158,6 +158,9 @@
   text-decoration: none;
   display: none;
 }
+.more-text {
+  display: block;
+}
 @media screen and (max-width: 767px) {
   .process {
     padding-top: 29px;
@@ -206,8 +209,26 @@
   .process-item-paragraph {
     display: none;
   }
-  .process-item-paragraph-another {
-    display: none;
+  .process-item-paragraph{
+    display: block;
+    width: 314px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .more-text {
+  }
+  .more-text.show{
+  }
+  #content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+  #content.show{
+    max-height: 100px;
+  }
+  .hidden{
+    display: none !important;
   }
   .process-item-title-another {
     width: 314px;
@@ -219,6 +240,9 @@
     font-weight: 400;
     line-height: 24px;
     margin-top: 3px;
+    border: none;
+    background: none;
+    margin: 0 auto;
   }
   .process-item-btn {
     display: none;
